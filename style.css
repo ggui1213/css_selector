@@ -1,0 +1,62 @@
+h1,h3{
+	background-color: #50cffa;
+	border-style: solid;
+	border-color: #faa7ee;
+	text-align: center;
+}
+
+.image{
+	display: flex;
+	align-items: center;
+}
+
+.image > img{
+	width:30%;
+	height: 30%;
+}
+
+.meme{
+	display: flex;
+	align-items: center;
+}
+
+.meme > img {
+	width: 30%;
+	height: 30%;
+}
+h3 + div{
+	text-align: center;
+}
+
+h2{
+	background-color: #faa2ed;
+	border-style: dotted;
+	border-color: #e8ed8e;
+	text-align: center;
+	text-decoration: none;
+}
+
+h2:hover{
+	background-color:#e8ed8e;
+	color: #047d4e;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+h2 + div{
+	text-align: center;
+}
